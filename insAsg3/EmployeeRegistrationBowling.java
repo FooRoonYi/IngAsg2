@@ -381,7 +381,7 @@ public class EmployeeRegistrationBowling extends JFrame {
 						JOptionPane.showMessageDialog(null, "The record is failed to add!", "Error", JOptionPane.ERROR_MESSAGE);
 					}
 				} catch (Exception e1) {
-					JOptionPane.showMessageDialog(null,"Make sure your password are matched!", "Message", JOptionPane.OK_OPTION);
+					JOptionPane.showMessageDialog(null,"Make sure your info are all filled in!", "Message", JOptionPane.OK_OPTION);
 				}
 				
 				
